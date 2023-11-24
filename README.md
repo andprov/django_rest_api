@@ -9,11 +9,6 @@ REST API платформы личных блогов.
 - Чтение/Публикация/Редакция/Удаление записей и комментариев.
 - Подписка на пользователей.
 
-# Технологии
-- Python 3.9
-- Django 3.2.16
-- Django REST Framework 3.12.4
-- SQLite3
 
 # Установка и запуск
 
@@ -45,12 +40,12 @@ pip install -r requirements.txt
 
 Выполнить миграции:
 ```
-python3 api_yatube/manage.py migrate
+python api_yatube/manage.py migrate
 ```
 
 Запустить сервер:
 ```
-python3 api_yatube/manage.py runserver
+python api_yatube/manage.py runserver
 ```
 
 # Документация к API
